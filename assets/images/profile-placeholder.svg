@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0CA9B7"/>
+      <stop offset="50%" stop-color="#08818c"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#e2e8f0" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="ringGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="80%" stop-color="#0CA9B7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0CA9B7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="400" height="400" rx="36" fill="url(#bgGrad)"/>
+  
+  <!-- Geometric Tech Grid Overlay -->
+  <circle cx="200" cy="200" r="160" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2" stroke-dasharray="6 6"/>
+  <circle cx="200" cy="200" r="125" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  
+  <!-- Subtle Glow -->
+  <circle cx="200" cy="180" r="90" fill="url(#ringGlow)"/>
+
+  <!-- Avatar Silhouette -->
+  <!-- Head -->
+  <circle cx="200" cy="155" r="54" fill="url(#avatarGrad)"/>
+  
+  <!-- Shoulders / Torso -->
+  <path d="M105 320 C105 240, 150 220, 200 220 C250 220, 295 240, 295 320 Z" fill="url(#avatarGrad)"/>
+
+  <!-- Tech/Student Badge Overlay -->
+  <g transform="translate(200, 345)">
+    <rect x="-85" y="-18" width="170" height="36" rx="18" fill="#1E293B" stroke="#0CA9B7" stroke-width="2"/>
+    <circle cx="-62" cy="0" r="5" fill="#10B981"/>
+    <text x="-48" y="5" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="0.5">SISTEM INFORMASI</text>
+  </g>
+</svg>

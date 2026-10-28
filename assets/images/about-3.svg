@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="50%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <radialGradient id="halo3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="500" fill="url(#bg3)"/>
+  <circle cx="300" cy="230" r="190" fill="url(#halo3)"/>
+
+  <!-- Code Editor Window Mockup -->
+  <g transform="translate(80, 80)">
+    <!-- Main IDE Window -->
+    <rect width="440" height="280" rx="14" fill="#0B1120" stroke="#334155" stroke-width="2"/>
+    
+    <!-- Title bar -->
+    <rect width="440" height="38" rx="14" fill="#1E293B"/>
+    <rect y="24" width="440" height="14" fill="#1E293B"/>
+    <circle cx="22" cy="19" r="5" fill="#EF4444"/>
+    <circle cx="38" cy="19" r="5" fill="#F59E0B"/>
+    <circle cx="54" cy="19" r="5" fill="#10B981"/>
+    <text x="80" y="23" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" fill="#94A3B8">system_core.js — Farhan Dev Workspace</text>
+
+    <!-- Code Line Mockups -->
+    <g transform="translate(30, 60)" font-family="'JetBrains Mono', Consolas, monospace" font-size="12">
+      <!-- Line 1 -->
+      <text x="0" y="20" fill="#F43F5E">const</text>
+      <text x="50" y="20" fill="#38BDF8">farhanProfile</text>
+      <text x="160" y="20" fill="#FFFFFF">=</text>
+      <text x="180" y="20" fill="#FCD34D">{</text>
+      
+      <!-- Line 2 -->
+      <text x="24" y="44" fill="#94A3B8">role:</text>
+      <text x="75" y="44" fill="#A7F3D0">'Systems Analyst &amp; Frontend'</text>
+      <text x="325" y="44" fill="#FFFFFF">,</text>
+      
+      <!-- Line 3 -->
+      <text x="24" y="68" fill="#94A3B8">focus:</text>
+      <text x="85" y="68" fill="#A7F3D0">'Modern UI/UX &amp; Web Dev'</text>
+      <text x="290" y="68" fill="#FFFFFF">,</text>
+      
+      <!-- Line 4 -->
+      <text x="24" y="92" fill="#94A3B8">passion:</text>
+      <text x="100" y="92" fill="#A7F3D0">'Solving Business Challenges'</text>
+      <text x="335" y="92" fill="#FFFFFF">,</text>
+      
+      <!-- Line 5 -->
+      <text x="24" y="116" fill="#F43F5E">buildSolution</text>
+      <text x="130" y="116" fill="#38BDF8">()</text>
+      <text x="155" y="116" fill="#FCD34D">{</text>
+      <text x="175" y="116" fill="#38BDF8"> return</text>
+      <text x="240" y="116" fill="#10B981">'Impactful Systems'</text>
+      <text x="385" y="116" fill="#FFFFFF">; }</text>
+      
+      <!-- Line 6 -->
+      <text x="0" y="140" fill="#FCD34D">};</text>
+
+      <!-- Terminal Output Box below -->
+      <g transform="translate(0, 160)">
+        <rect width="380" height="46" rx="8" fill="#020617" stroke="#1E293B"/>
+        <text x="16" y="28" fill="#10B981" font-size="11">✓ Build successful: 0 errors | 100% responsive</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tag Pill -->
+  <g transform="translate(170, 420)">
+    <rect width="260" height="40" rx="20" fill="rgba(15, 23, 42, 0.9)" stroke="#10B981" stroke-width="1.5"/>
+    <text x="130" y="25" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="700" fill="#10B981" text-anchor="middle">MODERN WEB &amp; CLEAN CODE</text>
+  </g>
+</svg>

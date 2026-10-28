@@ -1,0 +1,151 @@
+{
+  "profile": {
+    "name": "Muhammad Farhan",
+    "nickname": "Farhan",
+    "role": "Mahasiswa Sistem Informasi | Editor & Systems Analyst",
+    "location": "Jakarta, Indonesia",
+    "university": "Universitas Bina Sarana Informatika",
+    "major": "S1 Sistem Informasi",
+    "gpa": "3.82 / 4.00",
+    "summary": "Mahasiswa Sistem Informasi berorientasi solusi yang mengintegrasikan proses bisnis dengan teknologi web modern, pemodelan sistem terstandar (UML & BPMN), dan pengelolaan basis data relasional.",
+    "email": "mnaxgasumafc26@gmail.com",
+    "linkedin": "https://linkedin.com/in/ahmadfajar-si",
+    "github": "https://github.com/ahmadfajar-dev",
+    "cvPdfPath": "assets/files/cv.pdf"
+  },
+  "skills": {
+    "technical": [
+      "SDLC (Agile & Waterfall)",
+      "BPMN 2.0 Business Modeling",
+      "UML System Modeling",
+      "System Requirement Specification (SRS)"
+    ],
+    "webDev": [
+      "HTML5 Semantic",
+      "CSS3 / Modern Layout",
+      "JavaScript (ES6+)",
+      "Responsive Design",
+      "RESTful API Integration"
+    ],
+    "database": [
+      "SQL Query & DDL/DML",
+      "MySQL & PostgreSQL",
+      "Relational Database Design (ERD)",
+      "Data Normalization"
+    ],
+    "tools": [
+      "Visual Studio Code",
+      "Git & GitHub",
+      "Figma (UI/UX Prototyping)",
+      "Postman",
+      "Power BI & Excel"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Analytical Thinking",
+      "Effective Communication",
+      "Team Collaboration",
+      "Adaptability"
+    ]
+  },
+  "experiences": [
+    {
+      "role": "Asisten Laboratorium Sistem Informasi",
+      "organization": "Laboratorium Rekayasa Perangkat Lunak & SI",
+      "period": "2024 - Sekarang",
+      "description": "Membimbing 60+ mahasiswa dalam praktikum mata kuliah Manajemen Basis Data dan Pemrograman Web, menyusun materi modul ajar praktikum, dan mengevaluasi hasil proyek akhir mahasiswa.",
+      "achievements": "Meningkatkan tingkat kelulusan praktikum hingga 88% dengan nilai memuaskan."
+    },
+    {
+      "role": "Staff Divisi Riset & Teknologi",
+      "organization": "Himpunan Mahasiswa Sistem Informasi (HMSI)",
+      "period": "2023 - 2024",
+      "description": "Mengembangkan dan memperbarui portal informasi web kegiatan himpunan mahasiswa, serta menjadi panitia teknis seminar nasional teknologi informasi.",
+      "achievements": "Menyukseskan seminar nasional dengan 200+ partisipan dan workshop web dasar."
+    },
+    {
+      "role": "Project Lead (Academic Capstone)",
+      "organization": "Proyek Akademik Analisis & Perancangan SI",
+      "period": "2023",
+      "description": "Memimpin tim 4 anggota dalam analisis kebutuhan sistem peminjaman inventaris laboratorium, merancang dokumen SRS, diagram use case, activity diagram, dan prototipe Figma.",
+      "achievements": "Meraih predikat Proyek Terbaik kategori Perancangan Sistem Informasi."
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Sistem Informasi Manajemen Inventaris & Logistik",
+      "shortDescription": "Sistem informasi berbasis web untuk otomatisasi pencatatan, peminjaman, pelacakan kondisi aset, dan pelaporan inventaris laboratorium kampus.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "MySQL",
+        "UML"
+      ],
+      "demoUrl": "#",
+      "repoUrl": "https://github.com/ahmadfajar-dev/inventory-management-si",
+      "detail": "Proyek capstone yang memecahkan masalah pencatatan manual barang laboratorium. Dilengkapi fitur otentikasi role-based, pencatatan sirkulasi barang dengan QR Code, dan ekspor laporan rekapitulasi berkala."
+    },
+    {
+      "id": "proj-2",
+      "title": "E-Commerce & Point of Sale (POS) UMKM",
+      "shortDescription": "Aplikasi katalog produk digital dan kasir penjualan yang dirancang untuk mendigitalkan pencatatan keuangan dan transaksi merchant lokal.",
+      "tags": [
+        "JavaScript ES6",
+        "Responsive UI",
+        "REST API",
+        "BPMN"
+      ],
+      "demoUrl": "#",
+      "repoUrl": "https://github.com/ahmadfajar-dev/pos-umkm-system",
+      "detail": "Sistem terintegrasi yang mempermudah pemilik UMKM dalam memantau stok produk, mencetak struk transaksi, dan melihat laporan laba-rugi harian dengan navigasi kasir yang cepat dan ramah sentuhan."
+    },
+    {
+      "id": "proj-3",
+      "title": "Dashboard Analisis Penjualan & Bisnis",
+      "shortDescription": "Dasbor analitik interaktif untuk visualisasi metrik performa penjualan, tren kategori produk terlaris, dan segmentasi pelanggan.",
+      "tags": [
+        "Data Visualization",
+        "CSS Grid",
+        "Chart UI",
+        "SQL"
+      ],
+      "demoUrl": "#",
+      "repoUrl": "https://github.com/ahmadfajar-dev/sales-analytics-dashboard",
+      "detail": "Menampilkan KPI bisnis penting dengan grafik interaktif, filter rentang tanggal dinamis, dan kalkulasi otomatis nilai rata-rata pesanan (AOV) untuk membantu pengambilan keputusan manajerial."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universitas Terkemuka Indonesia",
+      "degree": "Sarjana Sistem Informasi (S.Kom / S.SI)",
+      "period": "2022 - Sekarang (Semester 5)",
+      "status": "Mahasiswa Aktif | IPK: 3.82 / 4.00",
+      "highlights": "Fokus riset: Rekayasa Sistem Informasi, Tata Kelola IT, dan Analisis Data Bisnis. Aktif sebagai mentor sebaya pemrograman."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Google Data Analytics Professional Certificate",
+      "issuer": "Coursera & Google",
+      "date": "Juni 2024",
+      "credentialId": "GDA-2024-SI-9981",
+      "skillsCovered": "SQL, Data Cleaning, Data Visualization, R Programming"
+    },
+    {
+      "name": "Junior Web Developer (BNSP)",
+      "issuer": "Lembaga Sertifikasi Profesi (LSP) Informatika",
+      "date": "Maret 2024",
+      "credentialId": "BNSP-JWD-77120",
+      "skillsCovered": "Semantic Web, CSS Layouts, Client-side Scripting, Security"
+    },
+    {
+      "name": "Scrum Fundamentals Certified (SFC™)",
+      "issuer": "SCRUMstudy",
+      "date": "November 2023",
+      "credentialId": "SFC-882310",
+      "skillsCovered": "Agile Methodology, Sprint Planning, Scrum Ceremonies"
+    }
+  ]
+}

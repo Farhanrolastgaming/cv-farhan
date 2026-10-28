@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="p1Accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0CA9B7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="p1Glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Window Frame Backdrop -->
+  <rect width="760" height="480" rx="14" fill="url(#p1Bg)" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Window Header / Browser Chrome -->
+  <path d="M 0 14 C 0 6.27 6.27 0 14 0 L 746 0 C 753.73 0 760 6.27 760 14 L 760 44 L 0 44 Z" fill="#1E293B"/>
+  <circle cx="28" cy="22" r="5" fill="#EF4444"/>
+  <circle cx="46" cy="22" r="5" fill="#F59E0B"/>
+  <circle cx="64" cy="22" r="5" fill="#10B981"/>
+  <rect x="94" y="12" width="280" height="20" rx="6" fill="#0F172A"/>
+  <text x="110" y="26" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" fill="#94A3B8">https://lab-inventory.farhan.si.id/dashboard</text>
+
+  <!-- Sidebar -->
+  <rect x="18" y="58" width="160" height="404" rx="10" fill="#111C33" stroke="#1E293B" stroke-width="1"/>
+  <!-- Logo / Brand -->
+  <circle cx="42" cy="84" r="10" fill="url(#p1Accent)"/>
+  <text x="60" y="88" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF">LAB-INVENT</text>
+  <!-- Menu Items -->
+  <rect x="30" y="112" width="136" height="28" rx="6" fill="#0CA9B7" fill-opacity="0.25"/>
+  <rect x="34" y="116" width="3" height="20" rx="1.5" fill="#0CA9B7"/>
+  <text x="46" y="131" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#38BDF8">Katalog Aset</text>
+
+  <rect x="30" y="148" width="136" height="28" rx="6" fill="transparent"/>
+  <text x="46" y="166" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Sirkulasi & Pinjam</text>
+
+  <rect x="30" y="184" width="136" height="28" rx="6" fill="transparent"/>
+  <text x="46" y="202" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Berita Acara</text>
+
+  <rect x="30" y="220" width="136" height="28" rx="6" fill="transparent"/>
+  <text x="46" y="238" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Laporan Maintenance</text>
+
+  <!-- Main View Area -->
+  <!-- Top Stat Cards -->
+  <g transform="translate(194, 58)">
+    <!-- Stat 1 -->
+    <rect x="0" y="0" width="170" height="74" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="24" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">TOTAL ASET LAB</text>
+    <text x="14" y="54" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">1,240 <tspan font-size="11" fill="#10B981">+12%</tspan></text>
+
+    <!-- Stat 2 -->
+    <rect x="184" y="0" width="170" height="74" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="24" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">SEDANG DIPINJAM</text>
+    <text x="14" y="54" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="22" font-weight="800" fill="#0CA9B7">48 <tspan font-size="11" fill="#38BDF8">Unit</tspan></text>
+
+    <!-- Stat 3 -->
+    <rect x="368" y="0" width="180" height="74" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="24" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">STATUS PERAWATAN</text>
+    <text x="14" y="54" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="20" font-weight="800" fill="#10B981">NORMAL (99%)</text>
+  </g>
+
+  <!-- Asset Table Section -->
+  <g transform="translate(194, 146)">
+    <rect x="0" y="0" width="548" height="316" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Table Toolbar -->
+    <text x="18" y="28" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Daftar Sirkulasi Perangkat Laboratorium</text>
+    <rect x="340" y="12" width="190" height="24" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <text x="355" y="28" font-family="system-ui, sans-serif" font-size="10" fill="#64748B">Cari Kode / Nama Aset...</text>
+
+    <!-- Table Header -->
+    <rect x="0" y="46" width="548" height="28" fill="#0F172A"/>
+    <text x="18" y="64" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">KODE</text>
+    <text x="95" y="64" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">NAMA PERANGKAT</text>
+    <text x="260" y="64" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">PEMINJAM</text>
+    <text x="390" y="64" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">STATUS</text>
+    <text x="480" y="64" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">AKSI</text>
+
+    <!-- Row 1 -->
+    <line x1="0" y1="106" x2="548" y2="106" stroke="#1E293B" stroke-width="1"/>
+    <text x="18" y="93" font-family="monospace" font-size="11" fill="#38BDF8">AST-0921</text>
+    <text x="95" y="93" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Oscilloscope Digital Rigol</text>
+    <text x="260" y="93" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Lab RPL (Sesi 2)</text>
+    <rect x="388" y="78" width="70" height="20" rx="4" fill="#064E3B"/>
+    <text x="398" y="92" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#34D399">TERSEDIA</text>
+    <rect x="480" y="80" width="48" height="18" rx="4" fill="#0CA9B7"/>
+    <text x="492" y="93" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Detail</text>
+
+    <!-- Row 2 -->
+    <line x1="0" y1="148" x2="548" y2="148" stroke="#1E293B" stroke-width="1"/>
+    <text x="18" y="135" font-family="monospace" font-size="11" fill="#38BDF8">AST-0418</text>
+    <text x="95" y="135" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Cisco Router 2901 Series</text>
+    <text x="260" y="135" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">M. Farhan (Praktikum)</text>
+    <rect x="388" y="120" width="70" height="20" rx="4" fill="#78350F"/>
+    <text x="398" y="134" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#FBBF24">DIPINJAM</text>
+    <rect x="480" y="122" width="48" height="18" rx="4" fill="#0CA9B7"/>
+    <text x="492" y="135" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Detail</text>
+
+    <!-- Row 3 -->
+    <line x1="0" y1="190" x2="548" y2="190" stroke="#1E293B" stroke-width="1"/>
+    <text x="18" y="177" font-family="monospace" font-size="11" fill="#38BDF8">AST-1102</text>
+    <text x="95" y="177" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Workstation Dell Precision</text>
+    <text x="260" y="177" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Lab Basis Data</text>
+    <rect x="388" y="162" width="70" height="20" rx="4" fill="#064E3B"/>
+    <text x="398" y="176" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#34D399">TERSEDIA</text>
+    <rect x="480" y="164" width="48" height="18" rx="4" fill="#0CA9B7"/>
+    <text x="492" y="177" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Detail</text>
+
+    <!-- Row 4 -->
+    <line x1="0" y1="232" x2="548" y2="232" stroke="#1E293B" stroke-width="1"/>
+    <text x="18" y="219" font-family="monospace" font-size="11" fill="#38BDF8">AST-0855</text>
+    <text x="95" y="219" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Raspberry Pi 4 Model B (4GB)</text>
+    <text x="260" y="219" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Tim Riset IoT</text>
+    <rect x="388" y="204" width="70" height="20" rx="4" fill="#7F1D1D"/>
+    <text x="398" y="218" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#F87171">MAINTENANCE</text>
+    <rect x="480" y="206" width="48" height="18" rx="4" fill="#0CA9B7"/>
+    <text x="492" y="219" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Detail</text>
+
+    <!-- Row 5 -->
+    <text x="18" y="261" font-family="monospace" font-size="11" fill="#38BDF8">AST-0329</text>
+    <text x="95" y="261" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">MikroTik Cloud Router Switch</text>
+    <text x="260" y="261" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Lab Jaringan</text>
+    <rect x="388" y="246" width="70" height="20" rx="4" fill="#064E3B"/>
+    <text x="398" y="260" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#34D399">TERSEDIA</text>
+    <rect x="480" y="248" width="48" height="18" rx="4" fill="#0CA9B7"/>
+    <text x="492" y="261" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Detail</text>
+  </g>
+</svg>

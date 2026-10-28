@@ -1,0 +1,134 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+  /Type /Pages
+  /Kids [3 0 R]
+  /Count 1
+>>
+endobj
+3 0 obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /MediaBox [0 0 595.28 841.89]
+  /Contents 4 0 R
+  /Resources <<
+    /Font <<
+      /F1 5 0 R
+      /F2 6 0 R
+    >>
+  >>
+>>
+endobj
+4 0 obj
+<<
+  /Length 1250
+>>
+stream
+BT
+/F2 20 Tf
+50 780 Td
+(CURRICULUM VITAE - AHMAD FAJAR PRATAMA) Tj
+/F1 11 Tf
+0 -20 Td
+(Mahasiswa Sistem Informasi | Web Developer & Systems Analyst Enthusiast) Tj
+0 -15 Td
+(Email: ahmad.fajar@example.com | LinkedIn: linkedin.com/in/ahmadfajar-si | GitHub: github.com/ahmadfajar-dev) Tj
+0 -25 Td
+/F2 14 Tf
+(PROFIL SINGKAT) Tj
+/F1 10 Tf
+0 -16 Td
+(Mahasiswa Sistem Informasi yang berfokus pada integrasi proses bisnis dan teknologi melalui perancangan) Tj
+0 -13 Td
+(antarmuka modern, pemodelan sistem (UML/BPMN), dan pengembangan aplikasi web yang efisien.) Tj
+0 -25 Td
+/F2 14 Tf
+(PENDIDIKAN) Tj
+/F1 10 Tf
+0 -16 Td
+(S1 Sistem Informasi - Universitas Terkemuka (2022 - Sekarang) | IPK: 3.82 / 4.00) Tj
+0 -13 Td
+(Mata Kuliah: Analisis & Perancangan SI, Basis Data, Pemrograman Web, Rekayasa Perangkat Lunak) Tj
+0 -25 Td
+/F2 14 Tf
+(KEAHLIAN UTAMA) Tj
+/F1 10 Tf
+0 -16 Td
+(Teknis: SDLC, Agile/Scrum, UML, BPMN 2.0, HTML5, CSS3, JavaScript ES6+, SQL, MySQL, Git) Tj
+0 -13 Td
+(Tools: Visual Studio Code, Figma, Postman, Microsoft Excel, Power BI) Tj
+0 -13 Td
+(Soft Skills: Analisis Kebutuhan Sistem, Komunikasi Efektif, Problem Solving, Kolaborasi Tim) Tj
+0 -25 Td
+/F2 14 Tf
+(PENGALAMAN RELEVAN) Tj
+/F1 10 Tf
+0 -16 Td
+(1. Asisten Laboratorium Sistem Informasi (2024 - Sekarang)) Tj
+0 -13 Td
+(   Membimbing praktikum Basis Data dan Pemrograman Web untuk 60+ mahasiswa.) Tj
+0 -15 Td
+(2. Staff Divisi Riset & Teknologi - Himpunan Mahasiswa Sistem Informasi (2023 - 2024)) Tj
+0 -13 Td
+(   Mengembangkan portal web kegiatan dan menyelenggarakan seminar teknologi nasional.) Tj
+0 -25 Td
+/F2 14 Tf
+(PROYEK UNGGULAN) Tj
+/F1 10 Tf
+0 -16 Td
+(1. Sistem Informasi Manajemen Inventaris Lab (HTML, CSS, JS, MySQL, UML)) Tj
+0 -13 Td
+(2. E-Commerce & Point of Sales (POS) UMKM (Web Responsive, REST API, BPMN)) Tj
+0 -13 Td
+(3. Dashboard Visualisasi Data Akademik & Bisnis (Interactive Analytics & Reporting)) Tj
+0 -25 Td
+/F2 14 Tf
+(SERTIFIKASI) Tj
+/F1 10 Tf
+0 -16 Td
+(- Google Data Analytics Professional Certificate (Coursera / Google, 2024)) Tj
+0 -13 Td
+(- Junior Web Developer (Badan Nasional Sertifikasi Profesi - BNSP, 2024)) Tj
+0 -13 Td
+(- Scrum Fundamentals Certified - SFC (SCRUMstudy, 2023)) Tj
+ET
+endstream
+endobj
+5 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+>>
+endobj
+6 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica-Bold
+>>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000262 00000 n 
+0000001564 00000 n 
+0000001635 00000 n 
+trailer
+<<
+  /Size 7
+  /Root 1 0 R
+>>
+startxref
+1711
+%%EOF

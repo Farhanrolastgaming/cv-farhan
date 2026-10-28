@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0CA9B7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <radialGradient id="halo1" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#0CA9B7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0CA9B7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="500" fill="url(#bg1)"/>
+  <circle cx="300" cy="210" r="170" fill="url(#halo1)"/>
+
+  <!-- Tech Grid Background lines -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1.5">
+    <line x1="0" y1="125" x2="600" y2="125"/>
+    <line x1="0" y1="250" x2="600" y2="250"/>
+    <line x1="0" y1="375" x2="600" y2="375"/>
+    <line x1="150" y1="0" x2="150" y2="500"/>
+    <line x1="300" y1="0" x2="300" y2="500"/>
+    <line x1="450" y1="0" x2="450" y2="500"/>
+  </g>
+
+  <!-- Geometric Decorative Circle -->
+  <circle cx="300" cy="210" r="140" fill="none" stroke="#0CA9B7" stroke-width="1.5" stroke-dasharray="6 8" opacity="0.6"/>
+  <circle cx="300" cy="210" r="115" fill="none" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1"/>
+
+  <!-- Character Silhouette (Professional Student) -->
+  <!-- Head -->
+  <circle cx="300" cy="155" r="48" fill="#F8FAFC"/>
+  <!-- Body/Suit -->
+  <path d="M210 310 C210 240, 250 220, 300 220 C350 220, 390 240, 390 310 Z" fill="#F8FAFC"/>
+  <!-- Tie Accent -->
+  <polygon points="300,230 307,270 300,295 293,270" fill="#0CA9B7"/>
+
+  <!-- Floating Badge: Akademik UBSI -->
+  <g transform="translate(160, 345)">
+    <rect width="280" height="46" rx="23" fill="rgba(15, 23, 42, 0.9)" stroke="#0CA9B7" stroke-width="1.5"/>
+    <circle cx="30" cy="23" r="6" fill="#10B981"/>
+    <text x="46" y="28" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">MAHASISWA SISTEM INFORMASI</text>
+  </g>
+
+  <!-- Campus Icon Tag -->
+  <g transform="translate(430, 90)">
+    <rect width="130" height="34" rx="8" fill="rgba(30, 41, 59, 0.85)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="65" y="22" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#38BDF8" text-anchor="middle">UBSI KAMPUS</text>
+  </g>
+</svg>

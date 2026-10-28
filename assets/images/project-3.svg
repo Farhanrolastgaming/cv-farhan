@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p3Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="p3ChartLine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0CA9B7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0CA9B7" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="barGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="barGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0CA9B7"/>
+      <stop offset="100%" stop-color="#088A96"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Window Frame -->
+  <rect width="760" height="480" rx="14" fill="url(#p3Bg)" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Window Header / Browser Chrome -->
+  <path d="M 0 14 C 0 6.27 6.27 0 14 0 L 746 0 C 753.73 0 760 6.27 760 14 L 760 44 L 0 44 Z" fill="#1E293B"/>
+  <circle cx="28" cy="22" r="5" fill="#EF4444"/>
+  <circle cx="46" cy="22" r="5" fill="#F59E0B"/>
+  <circle cx="64" cy="22" r="5" fill="#10B981"/>
+  <rect x="94" y="12" width="280" height="20" rx="6" fill="#0F172A"/>
+  <text x="110" y="26" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" fill="#94A3B8">https://bi-analytics.farhan.si.id/reports/2026</text>
+
+  <!-- Top KPI Cards (4 Cards) -->
+  <g transform="translate(18, 58)">
+    <!-- KPI 1 -->
+    <rect x="0" y="0" width="172" height="74" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="24" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">TOTAL REVENUE (Q3)</text>
+    <text x="14" y="52" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="20" font-weight="800" fill="#38BDF8">Rp 482.5 Jt</text>
+    <text x="120" y="52" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#10B981">▲ 18.2%</text>
+
+    <!-- KPI 2 -->
+    <rect x="184" y="0" width="172" height="74" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="24" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">VOLUME TRANSAKSI</text>
+    <text x="14" y="52" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">14,290</text>
+    <text x="120" y="52" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#10B981">▲ 8.4%</text>
+
+    <!-- KPI 3 -->
+    <rect x="368" y="0" width="172" height="74" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="24" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">RETENSI PELANGGAN</text>
+    <text x="14" y="52" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="20" font-weight="800" fill="#0CA9B7">87.6%</text>
+    <text x="120" y="52" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#10B981">▲ 4.1%</text>
+
+    <!-- KPI 4 -->
+    <rect x="552" y="0" width="172" height="74" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="24" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">PROYEKSI TARGET</text>
+    <text x="14" y="52" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="20" font-weight="800" fill="#10B981">104.5%</text>
+    <text x="120" y="52" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#38BDF8">ON TRACK</text>
+  </g>
+
+  <!-- Big Interactive Area Chart (Left 460px) -->
+  <g transform="translate(18, 146)">
+    <rect x="0" y="0" width="460" height="306" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1"/>
+    <text x="18" y="26" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Tren Omzet & Prediksi Performa Bulanan</text>
+    <text x="18" y="42" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Model regresi linier vs realisasi actual sales 2026</text>
+
+    <!-- Grid lines -->
+    <line x1="40" y1="70" x2="435" y2="70" stroke="#1E293B" stroke-width="1"/>
+    <line x1="40" y1="120" x2="435" y2="120" stroke="#1E293B" stroke-width="1"/>
+    <line x1="40" y1="170" x2="435" y2="170" stroke="#1E293B" stroke-width="1"/>
+    <line x1="40" y1="220" x2="435" y2="220" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Y labels -->
+    <text x="32" y="74" font-family="system-ui, sans-serif" font-size="9" text-anchor="end" fill="#64748B">100M</text>
+    <text x="32" y="124" font-family="system-ui, sans-serif" font-size="9" text-anchor="end" fill="#64748B">75M</text>
+    <text x="32" y="174" font-family="system-ui, sans-serif" font-size="9" text-anchor="end" fill="#64748B">50M</text>
+    <text x="32" y="224" font-family="system-ui, sans-serif" font-size="9" text-anchor="end" fill="#64748B">25M</text>
+
+    <!-- Area polygon under curve -->
+    <polygon points="50,220 50,190 100,165 155,180 210,135 265,110 320,125 375,85 430,75 430,220" fill="url(#p3ChartLine)"/>
+
+    <!-- Trend line 1: Actual Revenue (Turquoise) -->
+    <polyline points="50,190 100,165 155,180 210,135 265,110 320,125 375,85 430,75" fill="none" stroke="#0CA9B7" stroke-width="3"/>
+
+    <!-- Trend line 2: Projected Baseline (Dashed Blue) -->
+    <polyline points="50,200 100,185 155,170 210,150 265,130 320,115 375,100 430,85" fill="none" stroke="#38BDF8" stroke-width="2" stroke-dasharray="4,4"/>
+
+    <!-- Data points with circles -->
+    <circle cx="210" cy="135" r="4" fill="#0CA9B7" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="265" cy="110" r="4" fill="#0CA9B7" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="375" cy="85" r="5" fill="#38BDF8" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="430" cy="75" r="5" fill="#10B981" stroke="#FFFFFF" stroke-width="2"/>
+
+    <!-- Tooltip bubble at peak -->
+    <rect x="330" y="45" width="90" height="26" rx="4" fill="#0F172A" stroke="#0CA9B7" stroke-width="1"/>
+    <text x="375" y="62" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle" fill="#38BDF8">Sep: 92.4 Jt</text>
+
+    <!-- X labels -->
+    <text x="50" y="242" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#64748B">Jan</text>
+    <text x="100" y="242" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#64748B">Feb</text>
+    <text x="155" y="242" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#64748B">Mar</text>
+    <text x="210" y="242" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#64748B">Apr</text>
+    <text x="265" y="242" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#64748B">Mei</text>
+    <text x="320" y="242" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#64748B">Jun</text>
+    <text x="375" y="242" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#64748B">Jul</text>
+    <text x="430" y="242" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#64748B">Agu</text>
+
+    <!-- Legend bar at bottom -->
+    <rect x="18" y="265" width="10" height="10" rx="2" fill="#0CA9B7"/>
+    <text x="34" y="274" font-family="system-ui, sans-serif" font-size="10" fill="#E2E8F0">Realisasi Omzet</text>
+    <line x1="140" y1="270" x2="160" y2="270" stroke="#38BDF8" stroke-width="2" stroke-dasharray="3,3"/>
+    <text x="168" y="274" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Target Baseline BI</text>
+  </g>
+
+  <!-- Right Distribution & Conversion Panel (246px) -->
+  <g transform="translate(492, 146)">
+    <rect x="0" y="0" width="250" height="306" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="26" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Kategori Terlaris</text>
+
+    <!-- Bar 1 -->
+    <text x="16" y="58" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Kopi & Minuman Artisan</text>
+    <text x="234" y="58" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="end" fill="#38BDF8">42%</text>
+    <rect x="16" y="65" width="218" height="8" rx="4" fill="#0F172A"/>
+    <rect x="16" y="65" width="92" height="8" rx="4" fill="url(#barGrad1)"/>
+
+    <!-- Bar 2 -->
+    <text x="16" y="98" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Pastry & Bakery</text>
+    <text x="234" y="98" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="end" fill="#0CA9B7">28%</text>
+    <rect x="16" y="105" width="218" height="8" rx="4" fill="#0F172A"/>
+    <rect x="16" y="105" width="61" height="8" rx="4" fill="url(#barGrad2)"/>
+
+    <!-- Bar 3 -->
+    <text x="16" y="138" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Main Course Paket</text>
+    <text x="234" y="138" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="end" fill="#F59E0B">18%</text>
+    <rect x="16" y="145" width="218" height="8" rx="4" fill="#0F172A"/>
+    <rect x="16" y="145" width="40" height="8" rx="4" fill="#F59E0B"/>
+
+    <!-- Bar 4 -->
+    <text x="16" y="178" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Merchandise & Retail</text>
+    <text x="234" y="178" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="end" fill="#8B5CF6">12%</text>
+    <rect x="16" y="185" width="218" height="8" rx="4" fill="#0F172A"/>
+    <rect x="16" y="185" width="26" height="8" rx="4" fill="#8B5CF6"/>
+
+    <line x1="16" y1="208" x2="234" y2="208" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Query Health Monitor -->
+    <text x="16" y="230" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Kinerja Agregasi Query SQL</text>
+    <rect x="16" y="242" width="218" height="50" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="34" cy="267" r="6" fill="#10B981"/>
+    <text x="48" y="263" font-family="monospace" font-size="10" fill="#38BDF8">AVG QUERY: 42ms</text>
+    <text x="48" y="278" font-family="system-ui, sans-serif" font-size="9" fill="#94A3B8">Index B-Tree diaktifkan</text>
+  </g>
+</svg>

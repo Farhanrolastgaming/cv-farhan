@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700" width="100%" height="100%">
+  <!-- Transparent Background Cutout Persona 1 (Stella Sora Inspired Anime/Tech Character) -->
+  <defs>
+    <linearGradient id="hairGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5EB"/>
+      <stop offset="60%" stop-color="#FFE0D0"/>
+      <stop offset="100%" stop-color="#FDBA74"/>
+    </linearGradient>
+    <linearGradient id="capeGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="goldTrim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="blueLining" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="15" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <!-- Back Hair flowing -->
+    <path d="M160 210 C80 320, 70 480, 110 590 C140 540, 150 460, 180 400 Z" fill="url(#hairGrad1)"/>
+    <path d="M340 210 C420 320, 440 490, 390 600 C360 540, 350 460, 320 400 Z" fill="url(#hairGrad1)"/>
+
+    <!-- Cape Background -->
+    <path d="M170 300 L120 490 L210 520 L250 450 Z" fill="url(#blueLining)"/>
+    <path d="M330 300 L380 490 L290 520 L250 450 Z" fill="url(#blueLining)"/>
+
+    <!-- Main White Coat & Cape -->
+    <path d="M190 290 C150 350, 140 450, 155 540 C210 550, 290 550, 345 540 C360 450, 350 350, 310 290 Z" fill="url(#capeGrad1)" stroke="#334155" stroke-width="2"/>
+
+    <!-- Gold Trimming & Details -->
+    <path d="M185 350 L250 420 L315 350 L305 330 L250 390 L195 330 Z" fill="url(#goldTrim)"/>
+    <path d="M155 540 C210 550, 290 550, 345 540 L340 515 C290 525, 210 525, 160 515 Z" fill="url(#goldTrim)"/>
+
+    <!-- Legs with dark boots / stockings -->
+    <path d="M205 530 L200 680 L235 680 L240 530 Z" fill="#1E293B"/>
+    <path d="M260 530 L265 680 L300 680 L295 530 Z" fill="#1E293B"/>
+    <!-- Thigh strap -->
+    <rect x="198" y="555" width="40" height="8" rx="2" fill="#0CA9B7"/>
+    <rect x="212" y="553" width="12" height="12" rx="2" fill="#FDE047"/>
+
+    <!-- Fur Collar -->
+    <path d="M185 270 C160 285, 160 320, 190 325 C220 330, 250 320, 250 305 C250 320, 280 330, 310 325 C340 320, 340 285, 315 270 C280 255, 220 255, 185 270 Z" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2"/>
+
+    <!-- Head & Neck -->
+    <polygon points="235,240 265,240 258,280 242,280" fill="#FFE4E6"/>
+    <!-- Face -->
+    <path d="M205 180 C205 245, 295 245, 295 180 C295 140, 205 140, 205 180 Z" fill="#FFF1F2"/>
+
+    <!-- Anime Eyes (Turquoise Glow) -->
+    <!-- Left Eye -->
+    <ellipse cx="230" cy="190" rx="9" ry="12" fill="#0CA9B7"/>
+    <ellipse cx="230" cy="190" rx="6" ry="8" fill="#0369A1"/>
+    <circle cx="228" cy="186" r="3.5" fill="#FFFFFF"/>
+    <circle cx="233" cy="193" r="1.8" fill="#38BDF8"/>
+    <path d="M220 180 Q230 174 241 180" stroke="#0F172A" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- Right Eye -->
+    <ellipse cx="270" cy="190" rx="9" ry="12" fill="#0CA9B7"/>
+    <ellipse cx="270" cy="190" rx="6" ry="8" fill="#0369A1"/>
+    <circle cx="268" cy="186" r="3.5" fill="#FFFFFF"/>
+    <circle cx="273" cy="193" r="1.8" fill="#38BDF8"/>
+    <path d="M259 180 Q270 174 280 180" stroke="#0F172A" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- Cute smile & blush -->
+    <path d="M246 214 Q250 219 254 214" stroke="#E11D48" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <ellipse cx="218" cy="204" rx="8" ry="4" fill="#FDA4AF" opacity="0.6"/>
+    <ellipse cx="282" cy="204" rx="8" ry="4" fill="#FDA4AF" opacity="0.6"/>
+
+    <!-- Front Bangs & Twintails Hair -->
+    <path d="M195 160 C185 200, 210 240, 215 250 C220 220, 225 190, 230 170 Z" fill="url(#hairGrad1)"/>
+    <path d="M305 160 C315 200, 290 240, 285 250 C280 220, 275 190, 270 170 Z" fill="url(#hairGrad1)"/>
+    <path d="M225 150 C235 180, 245 200, 250 210 C255 200, 265 180, 275 150 C260 140, 240 140, 225 150 Z" fill="url(#hairGrad1)"/>
+
+    <!-- Hair Sparkle Highlights (Stella Sora Signature) -->
+    <path d="M225 150 L229 140 L233 150 L243 154 L233 158 L229 168 L225 158 L215 154 Z" fill="#38BDF8"/>
+    <path d="M275 145 L278 138 L281 145 L288 148 L281 151 L278 158 L275 151 L268 148 Z" fill="#38BDF8"/>
+
+    <!-- Halo / Head Wing Accessory -->
+    <path d="M185 145 C170 130, 185 110, 205 125 Z" fill="url(#goldTrim)"/>
+    <path d="M315 145 C330 130, 315 110, 295 125 Z" fill="url(#goldTrim)"/>
+    <circle cx="250" cy="110" r="45" fill="none" stroke="rgba(56, 189, 248, 0.7)" stroke-width="2" stroke-dasharray="8 6"/>
+
+    <!-- Weapon / Staff held gracefully -->
+    <line x1="330" y1="260" x2="280" y2="650" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M320 260 L360 210 L345 290 Z" fill="url(#goldTrim)"/>
+    <circle cx="340" cy="250" r="8" fill="#0CA9B7"/>
+  </g>
+</svg>
